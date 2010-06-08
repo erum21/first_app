@@ -731,3 +731,58 @@ Completed in 6ms (View: 1, DB: 0) | 406 Not Acceptable [http://localhost/users.j
 Processing UsersController#index to json (for 127.0.0.1 at 2010-06-07 20:38:01) [GET]
   [4;35;1mUser Load (0.0ms)[0m   [0mSELECT * FROM "users" [0m
 Completed in 8ms (View: 3, DB: 0) | 200 OK [http://localhost/users.json]
+
+
+Processing MicropostsController#index (for 127.0.0.1 at 2010-06-07 23:06:57) [GET]
+  [4;36;1mMicropost Load (1.0ms)[0m   [0;1mSELECT * FROM "microposts" [0m
+Rendering template within layouts/microposts
+Rendering microposts/index
+Completed in 34ms (View: 22, DB: 1) | 200 OK [http://localhost/microposts]
+
+
+Processing MicropostsController#new (for 127.0.0.1 at 2010-06-07 23:06:59) [GET]
+Rendering template within layouts/microposts
+Rendering microposts/new
+Completed in 26ms (View: 15, DB: 0) | 200 OK [http://localhost/microposts/new]
+
+
+Processing MicropostsController#show (for 127.0.0.1 at 2010-06-07 23:07:03) [GET]
+  Parameters: {"id"=>"3"}
+  [4;35;1mMicropost Load (1.0ms)[0m   [0mSELECT * FROM "microposts" WHERE ("microposts"."id" = 3) [0m
+Rendering template within layouts/microposts
+Rendering microposts/show
+Completed in 19ms (View: 5, DB: 1) | 200 OK [http://localhost/microposts/3]
+
+
+Processing MicropostsController#index (for 127.0.0.1 at 2010-06-07 23:19:43) [GET]
+  [4;36;1mMicropost Load (0.0ms)[0m   [0;1mSELECT * FROM "microposts" [0m
+Rendering template within layouts/microposts
+Rendering microposts/index
+Completed in 12ms (View: 6, DB: 0) | 200 OK [http://localhost/microposts]
+
+
+Processing MicropostsController#new (for 127.0.0.1 at 2010-06-07 23:19:45) [GET]
+Rendering template within layouts/microposts
+Rendering microposts/new
+Completed in 17ms (View: 9, DB: 0) | 200 OK [http://localhost/microposts/new]
+
+
+Processing MicropostsController#new (for 127.0.0.1 at 2010-06-07 23:19:47) [GET]
+Rendering template within layouts/microposts
+Rendering microposts/new
+Completed in 27ms (View: 15, DB: 0) | 200 OK [http://localhost/microposts/new]
+
+
+Processing MicropostsController#index (for 127.0.0.1 at 2010-06-07 23:19:49) [GET]
+  [4;35;1mMicropost Load (0.0ms)[0m   [0mSELECT * FROM "microposts" [0m
+Rendering template within layouts/microposts
+Rendering microposts/index
+Completed in 16ms (View: 9, DB: 0) | 200 OK [http://localhost/microposts]
+
+
+Processing MicropostsController#show (for 127.0.0.1 at 2010-06-07 23:19:51) [GET]
+  Parameters: {"id"=>"2"}
+  [4;36;1mMicropost Load (0.0ms)[0m   [0;1mSELECT * FROM "microposts" WHERE ("microposts"."id" = 2) [0m
+Rendering template within layouts/microposts
+Rendering microposts/show
+Completed in 20ms (View: 5, DB: 0) | 200 OK [http://localhost/microposts/2]

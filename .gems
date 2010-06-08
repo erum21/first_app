@@ -48,5 +48,6 @@ ruby_parser --version 2.0.4
 templater --version 1.0.0
 term-ansicolor --version 1.0.5
 ZenTest --version 4.3.1
+taps --version 0.3.8
 
 
