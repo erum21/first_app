@@ -1,1 +1,28 @@
 rails --version 2.3.8
+abstract --version 1.0.0
+actionmailer --version 2.3.8
+actionpack --version 2.3.8
+activerecord --version 2.3.8
+activesource --version 2.3.8
+activespec --version 0.1
+activesupport --version 2.3.8
+rack --version 1.1.0
+rake --version 0.8.7
+addressable --version 2.1.2
+dm-core --version 0.10.2
+builder --version 2.1.2
+erubis --version 2.6.5
+haml --version 3.0.6
+heroku --version 1.9.9
+extlib --version 0.9.15
+ferret --version 0.11.6
+log4r --version 1.1.7
+mechanize --version 1.0.0
+memcache --version 1.2.11
+launchy --version 0.3.5
+json_pure --version 1.4.3
+main --version 4.2.0
+mongrel --version 1.1.5
+sqlite3-ruby --version 1.2.5
+
+
