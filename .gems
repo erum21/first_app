@@ -11,21 +11,42 @@ rake --version 0.8.7
 addressable --version 2.1.2
 bundler --version 0.9.25
 builder --version 2.1.2
-data-objects --version 0.10.2
+data_objects --version 0.10.2
+dm-aggregates --version 0.10.2
+dm-constraints 0.10.2
+dm-migrations --version 0.10.2
 dm-core --version 0.10.2
-builder --version 2.1.2
+dm-serializer --version 0.10.2
+dm-sweatshop --version 0.10.2
+dm-validations --version 0.10.2
+dm-types --version 0.10.2 
 erubis --version 2.6.5
 haml --version 3.0.6
 heroku --version 1.9.9
+hirb --version 0.3.2
 extlib --version 0.9.15
+faker --version 0.3.1
+fattr --version 2.1.0
+fastercsv --version 1.5.3
 ferret --version 0.11.6
 log4r --version 1.1.7
 mechanize --version 1.0.0
 memcache --version 1.2.11
+mime-types --version 1.16
+mocha --version 0.9.8
 launchy --version 0.3.5
+linecache --version 0.43
 json_pure --version 1.4.3
 main --version 4.2.0
 mongrel --version 1.1.5
 sqlite3-ruby --version 1.2.5
+pagination --version 0.3.1
+populator --version 0.2.5
+randexp --version 0.1.5
+ruby2ruby --version 1.2.4
+ruby_parser --version 2.0.4
+templater --version 1.0.0
+term-ansicolor --version 1.0.5
+ZenTest --version 4.3.1
 
 
